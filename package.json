@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "npx serve -s dist"
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -63,7 +63,8 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.9",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
